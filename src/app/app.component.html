@@ -1,0 +1,28 @@
+<div class="container-fluid nopad">
+  <nav class="navbar navbar-light bg-dark">
+    <div class="navbar-header">
+      <a href="#" class="navbar-brand">
+        <img src="../assets/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top">
+        Rental
+      </a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active">
+        <p>{{d | date:'d/M/yy'}}</p>
+      </li>
+    </ul>
+    <ul class="nav navbar-nav navbar-right">
+      <li class="">
+        <h1>user</h1>
+      </li>
+    </ul>
+  </nav>
+  <router-outlet></router-outlet>
+  <footer class="page-footer">
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+    </div>
+  </footer>
+</div>
+
+

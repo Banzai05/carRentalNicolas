@@ -1,0 +1,18 @@
+.nopad{
+    padding: 0;
+}
+.navbar{
+    color: white;
+}
+.navbar-brand{
+    color: white;
+}
+.navbar-brand:hover{
+    color: grey;
+}
+.page-footer{
+    background-color: black;
+    color: white;
+    bottom: 0%;
+    margin-top: 50px;;
+}
